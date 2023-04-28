@@ -1,0 +1,75 @@
+/**
+ * Estilos personalizados para páginas do WooCommerce
+ *
+ * @package Marina
+ * @since 1.0.0
+ */
+
+/* Ajusta a largura da coluna principal */
+.woocommerce .site-main {
+    width: 100%;
+    margin: 0;
+}
+
+/* Ajusta a largura da barra lateral */
+.woocommerce #secondary {
+    display: none;
+}
+
+/* Ajusta a largura do conteúdo */
+.woocommerce .content-area {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Largura máxima personalizada */
+}
+
+/* Ajusta a largura do formulário de pesquisa */
+.woocommerce .woocommerce-product-search {
+    width: 100%;
+}
+
+/* Remove a imagem destacada do carrinho e da página de finalização de compra */
+.woocommerce-cart .product-thumbnail,
+.woocommerce-checkout .product-thumbnail {
+    display: none;
+}
+
+/* Remove a borda da tabela de carrinho */
+.woocommerce-cart .woocommerce-cart-form__cart-item.cart_item td,
+.woocommerce-checkout .woocommerce-cart-form__cart-item.cart_item td {
+    border: none;
+}
+
+/* Ajusta a largura da tabela de carrinho */
+.woocommerce-cart .woocommerce-cart-form__cart-item.cart_item td,
+.woocommerce-checkout .woocommerce-cart-form__cart-item.cart_item td {
+    width: 50%;
+}
+
+/* Ajusta a largura do botão de atualizar carrinho */
+.woocommerce-cart .woocommerce-cart-form__cart-item.cart_item td.actions .button {
+    width: 100%;
+}
+
+/* Ajusta a largura da tabela de resumo do carrinho */
+.woocommerce-cart .cart-collaterals .cart_totals,
+.woocommerce-checkout .cart-collaterals .cart_totals {
+    width: 50%;
+}
+
+/* Ajusta a largura da tabela de resumo do carrinho na página de finalização de compra */
+.woocommerce-checkout #order_review .shop_table {
+    width: 100%;
+}
+
+/* Ajusta a largura dos campos do formulário de finalização de compra */
+.woocommerce-checkout .woocommerce-billing-fields__field-wrapper,
+.woocommerce-checkout .woocommerce-shipping-fields__field-wrapper,
+.woocommerce-checkout .woocommerce-additional-fields__field-wrapper {
+    width: 100%;
+}
+
+/* Ajusta a largura do botão de finalizar compra */
+.woocommerce-checkout #payment .button {
+    width: 100%;
+}
